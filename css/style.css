@@ -1,5 +1,13 @@
-/* GLOBAL */
+/* CUSTOM PROPS */
+:root {
+  --body-bg:#F1F4FF;
+  --green:#4DC490;
+  --purple:#655AF2;
+  --red:#F03535;
+  --text-color:#000;
+}
 
+/* GLOBAL */
 html {
   box-sizing: border-box;
   height: 100%;
@@ -22,7 +30,7 @@ body {
   line-height: 1.5px;
   font-family: "Arial", sans-serif;
   background-color: #fff;
-  color: #222;
+  color: var(--text-color);
 }
 
 img {
